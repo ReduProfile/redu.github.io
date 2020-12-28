@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto|Source+Code+Pro');
+
+* {
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  font-weight:bold; 
+  margin-bottom: 35%;
+  font-size: 5rem;
+  box-shadow: 0 4px 8px 0 rgba(193, 190, 190, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family: 'Source Code Pro', sans-serif;
+}
+
+h5, .card-title {
+  text-align: center;
+  margin-right: 1rem;
+  font-weight: bold;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(193, 190, 190, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h4 {
+  text-align: left;
+}
+
+footer {
+  background-color: #d7e3ff;
+  color: white;
+}
+
+a {
+  font-family: 'Source Code Pro', sans-serif;
+}
+
+.fa-linkedin, .fa-github, .fa-paper-plane{
+  font-size: 2em;
+}
+
+.fa-book {
+  font-size: 5rem;
+}
+
+.fa-ball-pile {
+  color:  white;
+  font-size: 1.5em;
+}
+
+.fa-hands-usd {
+  color: white;
+  font-size: 5rem;
+}
+
+.fa-hands {
+  font-size: 18pt;
+  padding: 0.5rem;
+}
+
+.fa-bars {
+  color: rgb(0, 0, 0);
+}
+
+.titles {
+  display: block;
+  margin-bottom: 5%;
+}
+
+nav .nav-wrapper a.page-title {
+    font-size: 36px;
+    display: block;
+}
+
+nav {
+  text-align:center;
+  color: orange;
+}
+
+.title {
+    padding: .5rem;
+    text-align: center;
+}
+ 
+
+h2 {
+  font-weight:300pt;
+}
+
+footer.page-footer {
+  margin-top:0px;
+  padding-top:0px;
+
+}
+
+footer {
+    background: #fafbfc;
+    padding: 60px;
+    text-align: center;
+    color: #999;
+    font-size: 14px;
+    bottom: 0;
+    width: 100%;
+}
+
+
+ .container { 
+  margin-top:10rem;  
+  text-align: center;
+} 
+
+nav {
+  position:fixed;
+  top:0px;
+  width: 100%;
+  background-color: #e3f2fd;
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+
+section {
+  margin-top:10rem;  
+  z-index: 0; 
+  text-align: center;
+  padding-bottom: 2rem;
+} 
+
+
+.navbar-light .navbar-nav .nav-link {
+  color: #000000;
+}
+
+h5, h2, p {
+  color: rgb(0, 0, 0);
+}
+
+nav h2 {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 30pt;
+}
+
+
+.navbar-brand {
+  margin-right: 10px;
+  width: 5%;
+  height: 10%;
+}
+
+.navbar-brand img {
+  width: 30px;
+  height: 30px;
+}
+
+.nav-contain {
+  margin-top: 0;
+  color: white;
+}
+
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #dd8610;
+}
+
+#mainNav {
+  background-color: white;
+  color: #0d265f;
+}
+
+.navbar-light .navbar-nav .navbar-brand {
+  color: white;
+}
+
+.secondImg {
+  opacity: 0.5;
+}
+
+.landingpageImg {
+  opacity: 0.7;
+  filter: brightness(50%)
+}
+
+#carouselExampleIndicators {
+  box-shadow: 0 4px 8px 0 rgba(193, 190, 190, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#services ul {
+   margin-left: 15%;
+   margin-right: 15%;
+   box-shadow: 0 4px 8px 0 rgba(193, 190, 190, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h6 {
+  display: inline-block;
+}
+
+table {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+
+.badge-pill {
+  margin-right: 5%;
+}
+
+@media only screen and (max-width: 600px) {
+  .icons {
+    display: inline;
+  }
+  .titles > h2 {
+    display: none;
+  }
+  #mainPageH1 {
+    font-weight: bold;
+    margin-bottom: 0%;
+    font-size: 1rem;
+    font-family: 'Source Code Pro', sans-serif;
+  }
+  .badge-pill {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .icons {
+    display: none;
+  }
+}
