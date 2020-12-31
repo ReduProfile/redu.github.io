@@ -1,0 +1,487 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto|Source+Code+Pro');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+* {
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+  font-weight:bold; 
+  font-family: 'Source Code Pro', sans-serif;
+}
+
+h5, .card-title {
+  font-weight: 100;
+  text-align: center;
+  margin-right: 1rem;
+}
+
+h4 {
+  text-align: left;
+}
+
+footer {
+  background-color: #d7e3ff;
+  color: white;
+}
+
+.col-lg-3 {
+  text-align: center;
+  margin-right: 0rem;
+}
+
+a {
+  font-family: 'Source Code Pro', sans-serif;
+}
+
+.fa-linkedin, .fa-paper-plane{
+  font-size: 1em;
+}
+
+.fa-book {
+  font-size: 5rem;
+}
+
+.fa-ball-pile {
+  color:  white;
+  font-size: 1.5em;
+}
+
+.fa-hands-usd {
+  color: white;
+  font-size: 5rem;
+}
+
+.fa-hands {
+  font-size: 18pt;
+  padding: 0.5rem;
+}
+
+.fa-bars {
+  color: rgb(0, 0, 0);
+}
+
+.titles {
+  display: block;
+}
+
+nav .nav-wrapper a.page-title {
+    font-size: 36px;
+    display: block;
+}
+
+nav {
+  text-align:center;
+  color: orange;
+}
+
+.title {
+    padding: .5rem;
+    text-align: center;
+}
+
+h2 {
+  font-weight:100pt;
+}
+
+footer.page-footer {
+  margin-top:0px;
+  padding-top:0px;
+
+}
+
+footer {
+    background: #fafbfc;
+    padding: 60px;
+    text-align: center;
+    color: #999;
+    font-size: 14px;
+    bottom: 0;
+    width: 100%;
+}
+
+.row,.content {
+  margin: 6rem 0rem 10rem 0;
+}
+
+.row {
+  overflow-wrap:hidden;
+}
+
+.container {
+  margin-bottom:10px;
+  margin-top:10rem;  
+  text-align: center;
+}
+
+nav {
+  position:fixed;
+  top:0px;
+  width: 100%;
+  background-color: #e3f2fd;
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+
+section {
+  z-index: 0; 
+  padding-bottom: 2rem;
+} 
+
+.logo_imgs img {
+  margin: 0.5rem 0rem 0 0rem; 
+}
+
+.logo {
+    width: 10%;
+}
+
+h5, h2, p {
+  color: rgb(0, 0, 0);
+}
+
+nav h2 {
+  color: rgb(255, 255, 255);
+  font-size: 30pt;
+}
+
+
+footer p {
+  font-family: 'Lato', sans-serif;
+  color: rgb(164, 164, 164);
+}
+
+.navbar-brand {
+  margin-right: 10px;
+  width: 5%;
+  height: 10%;
+}
+
+.navbar-brand img {
+  width: 30px;
+  height: 30px;
+}
+
+.nav-contain {
+  margin-top: 0;
+  color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #9b9999;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #110e0a;
+}
+
+
+#mainNav {
+  background-color: white;
+  color: #0d265f;
+}
+
+.navbar-light .navbar-nav .navbar-brand {
+  color: white;
+}
+
+.contact {
+  text-align: 'left'
+}
+
+strong {
+  font-style: italic;
+}
+
+
+.lead {
+  color: white;
+}
+
+.navbar-light .nav_brand {
+  color: #000607;
+  font-size: 15pt;
+}
+
+.nav_brand:hover {
+  text-decoration:none;
+}
+
+.navbar-toggler {
+  color: #02b6db;
+  border-color: #02b6db;
+}
+
+.px1 {
+  padding-left: .5rem;
+  padding-right: .5rem;
+  padding: .5rem;
+  display: inline;
+}
+
+.flex {
+  padding-top: 1rem;
+}
+
+.jobs {
+  margin-top:1rem;
+  margin-bottom: 1rem;
+  border:gray;
+  box-shadow: 0 4px 8px 0 rgba(193, 190, 190, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 85%;
+  text-align:center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/*icons */
+@media only screen and (max-width: 600px) {
+  .icons {
+    display: inline;
+  }
+  .titles > h2 {
+    display: none;
+  }
+  .container {
+    margin-top:0;
+  }
+
+  .bioBox {
+    margin: 0px;
+  }
+
+  .bio > h3 {
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .icons {
+    display: none;
+  }
+  .container {
+    margin-top:0;
+  }
+  .bioBox {
+    margin: 0;
+  }
+
+  .bio > h3 {
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .icons {
+    display: none;
+  }
+
+  .bioBox {
+    margin: 0;
+  }
+
+  .container {
+    margin-top:0;
+  }
+
+  .bio > h3 {
+    padding: 0;
+  }
+
+}
+
+@media only screen and (min-width: 450px) {
+
+  .bioBox {
+    margin: 0;
+  }
+  .container {
+    margin-top:0;
+  }
+  .bio > h3 {
+    padding: 0;
+  }
+}
+
+#courses ul li {
+  border:0.01px thin rgb(195, 195, 195);
+  border-radius: 6px;
+  border: gray;
+  box-shadow: 0 4px 8px 0 rgb(193 190 190 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  margin-right: 2rem;
+}
+
+#courses ul li:hover {
+  box-shadow: 0 4px 8px 0 rgba(193, 190, 190, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-weight: bold;
+}
+
+
+.card:hover {
+  box-shadow: 0 4px 8px 0 rgba(193, 190, 190, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-title {
+  text-align: center;
+}
+
+.card {
+  border: 0px solid rgba(0,0,0,.125);
+  padding: 0;
+}
+
+.card-img-top {
+  padding-top: .8em;
+}
+
+#home { 
+  margin-bottom: 25rem;
+}
+
+#development ul li, 
+#data_science, #security_tr ul li {
+  font-family: 'Source Code Pro', sans-serif;
+}
+
+.exper_card {
+  margin-bottom: 10rem;
+  padding:0rem;
+}
+
+.bd-placeholder-img:hover, .rounded-circle:hover {
+  box-shadow: 8px 8px 8px 8px rgba(193, 190, 190, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bio_sec {
+  text-align: justify;
+}
+
+/*NEW Edition */
+
+/* */
+
+#experience ul {
+  margin: 0;
+  margin-top: 100px;
+  list-style: none;
+  position: relative;
+  padding: 1px 100px;
+  font-size: 13px;
+}
+
+#experience ul li {
+  position: relative;
+  margin-left: 30px;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 14px;
+  border-radius: 6px;
+  width: 100%;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.08);
+}
+
+#experience ul li:not(:first-child) {
+  margin-top: 60px;
+}
+#experience ul li > span {
+  width: 2px;
+  height: 100%;
+  background: #fff;
+  left: -30px;
+  top: 0;
+  position: absolute;
+}
+#experienceul li > span:before, #experience ul li > span:after {
+  /* content: ""; */
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  position: absolute;
+  background: #86b7e7;
+  left: -5px;
+  top: 0;
+}
+#experience ul li span:after {
+  top: 100%;
+}
+#experience ul li > div {
+  margin-left: 10px;
+}
+#experience div .title, #experience div .type {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+#experience div .info {
+  font-weight: 300;
+}
+
+.title_exp  {
+  margin-bottom: 5rem;
+}
+
+#experience div > div {
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+}
+
+#experience span.number {
+  height: 100%;
+}
+
+#experience span.number span {
+  position: absolute;
+  font-size: 14px;
+  left: -35px;
+  font-weight: bold;
+}
+
+.number {
+  font-size: 14px;
+}
+
+#projects {
+  margin-bottom:10px;
+  margin-top:10rem;  
+  text-align: center;
+}
+
+.landingpageImg {
+  opacity: 0.7;
+  width: 100%;
+  filter: brightness(50%)
+}
+
+#carouselExampleIndicators {
+  box-shadow: 0 4px 8px 0 rgba(193, 190, 190, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#profile_pic {
+  width: 300px;
+  height: 300px;
+  margin-left: 0;
+}
+
+.bio {
+  padding: 0rem;
+}
+
+.bio > h3 {
+  font-weight: bold;
+  text-align: left;
+}
+
+.bioBox {
+  margin-top:8rem;  
+  text-align: center;
+}
+
+.bioBox:hover {
+    box-shadow: none;
+}
