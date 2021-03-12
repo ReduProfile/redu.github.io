@@ -3,9 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
 
 * {
-  font-family: 'Roboto', sans-serif;
-  font-family: 'Lato', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  /* font-family: 'Lato', sans-serif; */
   /* font-family: 'Roboto Slab', serif; */
+  font-family: 'Helvetica', 'Arial', sans-serif;
 }
 
 h1 {
@@ -18,10 +19,6 @@ h5, .card-title {
   text-align: center;
   margin-right: 1rem;
 }
-
-/* h4 {
-  text-align: left;
-} */
 
 footer {
   background-color: #d7e3ff;
@@ -223,18 +220,19 @@ strong {
 }
 
 .navbar-light .nav_brand {
-  color: #000607;
-  font-size: 15pt;
+  color: rgb(243, 176, 7);
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-size: 20pt;
 }
 
 .nav_brand:hover {
   text-decoration:none;
 }
 
-.navbar-toggler {
-  color: #02b6db;
-  border-color: #02b6db;
-}
+/* .nav_brand a {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  color: goldenrod;
+} */
 
 .px1 {
   padding-left: .5rem;
