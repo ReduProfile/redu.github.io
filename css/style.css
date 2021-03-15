@@ -15,7 +15,7 @@ h1 {
 }
 
 h5, .card-title {
-  font-weight: 100;
+  font-weight: 80;
   text-align: center;
   margin-right: 1rem;
 }
@@ -90,14 +90,15 @@ footer.page-footer {
 
 }
 
-
-
 #userInterview ul {
 
   text-align: justify;
-
 }
 
+#usabilityTesting ul {
+  text-align: justify;
+
+}
 
 footer {
     background: #fafbfc;
@@ -139,7 +140,7 @@ nav {
 }
 
 .col img {
-  /* border-radius: 30px; */
+  border-radius: 30px;
 }
 
 section {
@@ -241,7 +242,7 @@ strong {
   padding-top: 1rem;
 }
 
-.jobs {
+.education {
   margin-top:1rem;
   margin-bottom: 1rem;
   border:gray;
@@ -258,15 +259,26 @@ strong {
   .icons {
     display: inline;
   }
-  .titles > h2 {
+  /* .titles > h2 {
     display: none;
-  }
+  } */
   .container {
     margin-top:0;
   }
 
-  .bioBox {
+  .imgBox {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:10rem;
+  }
+
+  /* .bioBox {
     margin: 0px;
+  } */
+
+  #bio {
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .bio > h3 {
@@ -285,6 +297,12 @@ strong {
     margin: 0;
   }
 
+  .imgBox {
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top:10rem;
+  }
+
   .bio > h3 {
     padding: 0;
   }
@@ -299,8 +317,19 @@ strong {
     margin: 0;
   }
 
+  #bio {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .container {
     margin-top:0;
+  }
+
+  .imgBox {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top:10rem;
   }
 
   .bio > h3 {
@@ -311,6 +340,12 @@ strong {
 
 @media only screen and (min-width: 450px) {
 
+  .imgBox {
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top:10rem;
+  }
+
   .bioBox {
     margin: 0;
   }
@@ -319,6 +354,16 @@ strong {
   }
   .bio > h3 {
     padding: 0;
+  }
+
+  .imgBox {
+    margin-left: 0rem;
+    margin-right: 0rem;
+    margin-top:10rem;
+  }
+
+  #courses ul li {
+    margin-bottom: 2%;
   }
 }
 
@@ -335,11 +380,6 @@ strong {
   box-shadow: 0 4px 8px 0 rgba(193, 190, 190, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   font-weight: bold;
 }
-
-
-/* .card:hover {
-  box-shadow: 0 4px 8px 0 rgba(193, 190, 190, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-} */
 
 .card-title {
   text-align: center;
@@ -367,10 +407,6 @@ strong {
   margin-bottom: 10rem;
   padding:0rem;
 }
-
-/* .bd-placeholder-img:hover, .rounded-circle:hover {
-  box-shadow: 8px 8px 8px 8px rgba(193, 190, 190, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-} */
 
 .bio_sec {
   text-align: justify;
@@ -467,6 +503,8 @@ strong {
 .card-body {
   padding: 0%;
 }
+
+
 .landingpageImg {
   width: 100%;
   margin-bottom: 2rem;
@@ -477,9 +515,15 @@ strong {
   box-shadow: 0 4px 8px 0 rgba(193, 190, 190, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.bio {
+#bio {
   padding: 0rem;
-  padding-left: 3rem;
+  /* padding-left: 3rem; */
+
+  margin-top:1rem;
+  margin-bottom: 1rem;
+  text-align:center;
+  margin-left: 10rem;
+  margin-right: 10rem;
 }
 
 .bio > h3 {
@@ -488,8 +532,12 @@ strong {
 }
 
 .imgBox {
-  margin-right: 10rem;
-  margin-left: 10rem;
+  margin-right: auto;
+  margin-left:auto;
+  margin-top:10rem;
+}
+
+.titleBox {
   margin-top:10rem;
 }
 
