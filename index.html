@@ -22,10 +22,16 @@
          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
             <ul class="navbar-nav ml-auto">
                <li class="nav-item">
-                  <a class="nav-link " href="about.html" >ABOUT</a>
+                  <a class="nav-link " href="#about">ABOUT</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link " href="#projects">PROJECTS</a>
                </li>
                <li class="nav-item">
                   <a href="assets/resume.pdf" target="_blank" class="nav-link">RESUME</a>
+               </li>
+               <li class="nav-item">
+                  <a href="#courses" class="nav-link">COURSES</a>
                </li>
 
                <li class="nav-item">
@@ -44,19 +50,50 @@
       <div class="container" id="about">
           <!-- <section id="bio"> -->
             <div class="card mb-2 imgBox">
-              <div class="card-body ">
+              <img class="card-img-top" role="img" id="profile_pic" src="./assets/profile.jpg" alt="...">
+              <div class="card-body bioBox">
                 <p class="card-text">
-                Hi, I'm Redeite! I am a UX Designer and Researcher based in Seattle with a background in Social Work.</p>
+                  Hello, my name is Redeite Moges! I am a current graduate student at the University of Washington studying 
+                  <a href="https://ischool.uw.edu/programs/msim">Information Management (MSIM)</a>. </br> 
+                  I have been inspired by the power and effect that information has on our society. Information can be 
+                  used to solve key societal problems and transform institutions greatly. My goal is to combine my passion for social work 
+                  and technology to make resources accessible to communities through UX research, human-centered design, and management.</p>
               </div>
             </div>
           <!-- </section> -->
       </div>
 
+       <div class="container">
+         <section id="education">
+           <div class="titles">
+             <i class="fas fa-graduation-cap fa-4x icons"></i>
+             <h2>Education</h2>
+           </div>
+           <div class="card text-center education">
+               <div class="card-body">
+                 <div class="title">Masters of Science in <a href="https://ischool.uw.edu/programs/msim" target="_blank">Information Management</a></div>
+                 <div class="info">University of Washington</div>
+                 <div class="number"><small>2020 - 2021</small></div>
+                 <div>Seattle</small></div>
+                 </div>
+             </div>
+           <div class="card text-center education">
+             <div class="card-body">
+               <div class="title">Bachelors of Art in <a href="https://socialwork.uw.edu/admissions/apply-to-basw" target="_blank">Social Work</a></div>
+               <div class="info">University of Washington</div>
+               <div class="number"><small>2015 - 2020</small></div>
+               <div>Seattle</small></div>
+               </div>
+           </div>
+         </section>
+       </div>
+
+
           <div class="container">
               <section id="projects"> 
             <h2>Projects</h2>
             <div class="row row-cols-1 row-cols-md-4 g-4">
-              <a href="mentalHealthResearch.html" target="">
+              <a href="mentalHealthResearch.html" target="_blank">
                 <div class="col">
                   <div class="card">
                     <img src="assets/uw_logo.jpg" class="card-img-top" alt="...">
@@ -66,32 +103,12 @@
                   </div>
                 </div>
               </a>
-              <a href="redesign.html" target="">
+              <a href="redesign.html" target="_blank">
               <div class="col">
                 <div class="card">
                   <img src="assets/uw_ischool.png" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title">Washington State Unemployment Eligibility Form </h5>
-                  </div>
-                </div>
-              </div>
-            </a>
-            <a href="covidDataVis.html" target="">
-              <div class="col">
-                <div class="card">
-                  <img src="assets/uw_logo.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Covid-19 Data Visualization</h5>
-                  </div>
-                </div>
-              </div>
-            </a>
-            <a href="wtahikingapp.html" target="">
-              <div class="col">
-                <div class="card">
-                  <img src="assets/uw_logo.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">WTA Hiking App Redesign</h5>
+                    <h5 class="card-title">Redesigning the Washington State Unemployment Eligibility Form </h5>
                   </div>
                 </div>
               </div>
@@ -99,6 +116,31 @@
         </div>
       </section>
      </div>
+
+     <div class="container">
+      <section id="courses">
+        <div class="titles">
+          <i class="fas fa-university fa-4x icons"></i>
+
+          <h2>Courses</h2>
+
+        </div>
+        <ul>
+        <li class="list-group-item d-flex justify-content-between align-items-center">IMT 530 : Organization Of Information Resources</li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">IMT 550 A Wi 21: Policy And Ethics In Information Management</li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">IMT 561 A Wi 21: Visualization Design</li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">IMT 540 A Au 20: Design Methods For Interactive Systems</li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">IMT 500 B Au 20: Foundations Of Information Management</li>
+        <li class="list-group-item d-flex justify-content-between align-items-center"> IMT 580 A Au 20: Management And Strategic Leadership</li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">SOC WF 410 A Wi 20: Evidence-Based Practices In Social Welfare</li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">SOC WF 390 A Au 19: Introduction To Social Welfare Research</li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">SOC WF 404 A Wi 19: Cultural Diversity And Justice</li>
+       <li class="list-group-item d-flex justify-content-between align-items-center"> SOC WF 402 Au 18: Human Behavior in the Social Environment</li>
+       <li class="list-group-item d-flex justify-content-between align-items-center">SOC 201 A Wi 17: Introductory Topics In Sociology</li>
+       <li class="list-group-item d-flex justify-content-between align-items-center">PSYCH 101 Sp 16: Introduction To Psychology</li>
+      </ul>
+      </section>
+    </div>
       
       <footer class="page-footer font-small">
          <div class="footer-copyright text-center py-3">
