@@ -95,9 +95,9 @@ footer.page-footer {
   text-align: justify;
 }
 
-#usabilityTesting ul {
-  text-align: justify;
 
+#reflection ul, #usabilityTesting ul {
+  text-align: justify;
 }
 
 footer {
@@ -117,6 +117,8 @@ footer {
 
 .row {
   overflow-wrap:hidden;
+  /* display: flex; */
+  align-items:center;
 }
 
 .container {
@@ -240,6 +242,10 @@ strong {
 
 .flex {
   padding-top: 1rem;
+}
+
+#education {
+  margin-top: 5rem;
 }
 
 .education {
@@ -376,10 +382,6 @@ strong {
   margin-bottom: 0.5%;
 }
 
-#courses ul li:hover {
-  box-shadow: 0 4px 8px 0 rgba(193, 190, 190, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  font-weight: bold;
-}
 
 .card-title {
   text-align: center;
@@ -496,7 +498,7 @@ strong {
 
 #projects {
   margin-bottom:10px;
-  margin-top:10rem;  
+  margin-top:8rem;  
   text-align: center;
 }
 
@@ -540,10 +542,23 @@ strong {
   margin-top:10rem;
 }
 
+p {
+  text-align: justify;
+}
+
+.imgBox p {
+  text-align: center;
+}
+
+
 .bioBox {
   margin-top:2rem;
   margin-bottom: 6rem;  
   text-align: center;
+}
+
+.bioBox p {
+  text-align: justify;
 }
 
 .bioBox:hover {
