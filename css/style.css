@@ -95,9 +95,9 @@ footer.page-footer {
   text-align: justify;
 }
 
-
-#reflection ul, #usabilityTesting ul {
+#usabilityTesting ul {
   text-align: justify;
+
 }
 
 footer {
@@ -117,8 +117,6 @@ footer {
 
 .row {
   overflow-wrap:hidden;
-  /* display: flex; */
-  align-items:center;
 }
 
 .container {
@@ -242,10 +240,6 @@ strong {
 
 .flex {
   padding-top: 1rem;
-}
-
-#education {
-  margin-top: 5rem;
 }
 
 .education {
@@ -502,7 +496,7 @@ strong {
 
 #projects {
   margin-bottom:10px;
-  margin-top:8rem;  
+  margin-top:10rem;  
   text-align: center;
 }
 
@@ -547,23 +541,10 @@ strong {
   margin-top:10rem;
 }
 
-p {
-  text-align: justify;
-}
-
-.imgBox p {
-  text-align: center;
-}
-
-
 .bioBox {
   margin-top:2rem;
   margin-bottom: 6rem;  
   text-align: center;
-}
-
-.bioBox p {
-  text-align: justify;
 }
 
 .bioBox:hover {
